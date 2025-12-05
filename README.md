@@ -151,19 +151,4 @@ python scripts/run_pipeline.py --model llama3
 - **[IMPLEMENTATION.md](IMPLEMENTATION.md)** - Implementation details and architecture
 - **[ESSENTIAL_FILES.md](ESSENTIAL_FILES.md)** - File structure and cleanup guide
 
-## License
-
-See LICENSE file for details.
-
-## Citation
-
-If you use this project, please cite:
-
-```bibtex
-@software{teaching_small_models_reason,
-  title = {Teaching Small Models to Reason with SMT-LIB2},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/teaching-small-models-reason}
-}
 ```
