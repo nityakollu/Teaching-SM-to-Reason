@@ -1,0 +1,214 @@
+id,problem,smt_output
+1,scheduling,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+2,Satisfying the linear programming relaxation of the knapsack problem,"(set-logic QF_LIA)
+(declare-const of Int)
+(assert (and (>= of 0) (<= of 10)))
+(check-sat)"
+3,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+4,Scheduling Problem: Minimize Latency,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+5,scheduling,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+6,"Satisfies the linear programming relaxation of the flow network of scheduling problem with three nodes and four edges, where each edge has two capacities.","(set-logic QF_LIA)
+(declare-const of Int)
+(assert (and (>= of 0) (<= of 10)))
+(check-sat)"
+7,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+8,scheduling: max-work-hours,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+9,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+10,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+11,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+12,\(\setoflucore uf) \+ (\declareconst i32 x 10),"(set-logic QF_LIA)
+(declare-const i32 Int)
+(declare-const uf Int)
+(assert (and (>= i32 0) (<= i32 10)))
+(assert (and (>= uf 0) (<= uf 10)))
+(assert (= (+ i32 uf) 10))
+(check-sat)"
+13,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+14,"{'type': 'scheduling', 'domain': 'transportation'}","(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+15,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+16,Satisfying a scheduling problem,"(set-logic QF_LIA)
+(declare-const a Int)
+(assert (and (>= a 0) (<= a 10)))
+(check-sat)"
+17,\(declare-const x 0: Int\); (set-logic QF_UF)\n(declare-const y 1: Boolean; (assert \(x = true; \))\n(check-sat),"(set-logic QF_LIA)
+(declare-const n Int)
+(assert (= n 0))
+(check-sat)"
+18,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+19,Scheduling problem to minimize make times and meet deadlines,"(set-logic QF_LIA)
+(declare-const to_slot Int)
+(assert (and (>= to_slot 1) (<= to_slot 3)))
+(check-sat)"
+20,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+21,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+22,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+23,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+24,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+25,Scheduling Problem: Minimize Latency,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+26,Scheduling Problem: Find an assignment that satisfies all constraints,"(set-logic QF_LIA)
+(declare-const an Int)
+(assert (and (>= an 0) (<= an 10)))
+(check-sat)"
+27,Scheduling Problem: Maximum Number of Tasks with No Overlapping Constraints,"(set-logic QF_LIA)
+(declare-const No Int)
+(assert (and (>= No 0) (<= No 10)))
+(check-sat)"
+28,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+29,Scheduling Problem: Maximize the number of customers served while minimizing idle time,"(set-logic QF_LIA)
+(declare-const of_slot Int)
+(assert (and (>= of_slot 1) (<= of_slot 3)))
+(check-sat)"
+30,Scheduling Problem: Find an optimal assignment of jobs to machines in a factory,"(set-logic QF_LIA)
+(declare-const a Int)
+(assert (and (>= a 0) (<= a 10)))
+(check-sat)"
+31,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+32,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+33,(set-logic QF_UF  (declare-const x int)  (declare-const y int)  (assert (>= x 0)    (<= y 10) ),"(set-logic QF_LIA)
+(declare-const x Int)
+(assert (= x 0))
+(check-sat)"
+34,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+35,Satisfying the parity of three signals in a 3D system,"(set-logic QF_LIA)
+(declare-const a Int)
+(assert (and (>= a 0) (<= a 10)))
+(check-sat)"
+36,"Satisfy the following scheduling constraint: Minimize make_time(1, 2) + make_time(3, 4)","(set-logic QF_LIA)
+(declare-const X_slot Int)
+(assert (and (>= X_slot 1) (<= X_slot 1)))
+(declare-const Y_slot Int)
+(assert (and (>= Y_slot 1) (<= Y_slot 1)))
+(declare-const Z_slot Int)
+(assert (and (>= Z_slot 1) (<= Z_slot 1)))
+(assert (distinct X_slot Y_slot Z_slot))
+(check-sat)"
+37,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+38,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+39,Satisfying a scheduling conflict on multiple servers,"(set-logic QF_LIA)
+(declare-const a Int)
+(assert (and (>= a 0) (<= a 10)))
+(check-sat)"
+40,Scheduling Problem: Resource Allocation,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+41,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+42,Scheduling Problem: Maximize Productivity with Limited Time,"(set-logic QF_LIA)
+(declare-const X_slot Int)
+(assert (and (>= X_slot 1) (<= X_slot 3)))
+(declare-const Y_slot Int)
+(assert (and (>= Y_slot 1) (<= Y_slot 3)))
+(declare-const Z_slot Int)
+(assert (and (>= Z_slot 1) (<= Z_slot 3)))
+(assert (distinct X_slot Y_slot Z_slot))
+(check-sat)"
+43,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+44,Scheduling problem with no conflicts,"(set-logic QF_LIA)
+(declare-const no Int)
+(assert (and (>= no 0) (<= no 10)))
+(check-sat)"
+45,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+46,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+47,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+48,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+49,Scheduling Problem,"(set-logic QF_LIA)
+(declare-const X Int)
+(assert (and (>= X 0) (<= X 10)))
+(check-sat)"
+50,Satisfying the following linear programming relaxation of the 8-hour workday problem with additional constraints,"(set-logic QF_LIA)
+(declare-const of Int)
+(assert (and (>= of 0) (<= of 10)))
+(check-sat)"
