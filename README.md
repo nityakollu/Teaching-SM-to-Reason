@@ -150,5 +150,3 @@ python scripts/run_pipeline.py --model llama3
 - **[SETUP.md](SETUP.md)** - Detailed setup and installation guide
 - **[IMPLEMENTATION.md](IMPLEMENTATION.md)** - Implementation details and architecture
 - **[ESSENTIAL_FILES.md](ESSENTIAL_FILES.md)** - File structure and cleanup guide
-
-```
